@@ -4,7 +4,7 @@ let agregar = document.getElementById("agregar-tarea-btn");
 let listaTareas = document.getElementById("lista-tareas");
 
 // Evento para agregar una tarea
-agregar.addEventListener("click", function() {
+agregar.addEventListener("click", function () {
   let textoTarea = entradaTarea.value;
   if (textoTarea !== "") {
     let tareaItem = crearTarea(textoTarea);
@@ -28,7 +28,7 @@ function crearTarea(textoTarea) {
   botonEliminar.textContent = "Eliminar";
 
   // Evento para eliminar una tarea
-  botonEliminar.addEventListener("click", function() {
+  botonEliminar.addEventListener("click", function () {
     tareaItem.remove();
   });
 

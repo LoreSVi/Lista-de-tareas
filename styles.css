@@ -40,20 +40,28 @@ body {
   }
   
   #lista-tareas {
-    list-style-type: none;
-    margin-top: 20px;
-    padding: 20px;
+    padding: 10px;
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    margin-top: 1em;
+ 
   }
   
   .tarea-item {
     display: flex;
     align-items: center;
     background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-    margin-left: 3em;
-    margin-right: 3em;
+    justify-content: space-between;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
   }
   
   .tarea-item input[type="checkbox"] {
